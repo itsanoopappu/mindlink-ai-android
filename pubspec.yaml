@@ -17,7 +17,7 @@ dependencies:
   speech_to_text: ^7.0.0
 
   # Audio recording for API-based transcription
-  record: ^5.1.2
+  record: ^6.0.0
 
   # HTTP client
   http: ^1.2.2
