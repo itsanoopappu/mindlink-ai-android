@@ -1,0 +1,60 @@
+name: malayalam_voice_typing
+description: "MindLink AI - Malayalam Voice Typing. Convert speech to Malayalam text with 99% accuracy."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Speech to text
+  speech_to_text: ^7.0.0
+
+  # Audio recording for API-based transcription
+  record: ^5.1.2
+
+  # HTTP client
+  http: ^1.2.2
+
+  # State management
+  provider: ^6.1.2
+
+  # Local storage
+  shared_preferences: ^2.3.3
+
+  # Google Fonts for Malayalam
+  google_fonts: ^6.2.1
+
+  # Permissions
+  permission_handler: ^11.3.1
+
+  # Path provider for file storage
+  path_provider: ^2.1.4
+
+  # Share functionality
+  share_plus: ^10.1.4
+
+  # URL launcher
+  url_launcher: ^6.3.1
+
+  # Firebase (optional - for auth)
+  firebase_core: ^3.8.1
+  firebase_auth: ^5.3.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
